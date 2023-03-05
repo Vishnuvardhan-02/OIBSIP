@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project-1</string>
+
+        <string-array name="length_units">
+            <item>Meters</item>
+            <item>Centimeters</item>
+            <item>Millimeters</item>
+            <item>Kilometers</item>
+            <item>Feet</item>
+            <item>Inches</item>
+            <item>Yards</item>
+            <item>Miles</item>
+        </string-array>
+
+
+
+</resources>

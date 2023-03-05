@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value"/>
+
+    <Spinner
+        android:id="@+id/from_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/length_units"/>
+
+    <Spinner
+        android:id="@+id/to_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/length_units"/>
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"/>
+
+    <TextView
+        android:id="@+id/output_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
